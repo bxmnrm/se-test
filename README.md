@@ -1,4 +1,4 @@
-# team16
+#Reminder!
 <ol>
   <li>How to switch branch -> git checkout -b NAMEBRANCH </li>
   <li>How to create new branch -> git branch NAMEBRANCH</li>
