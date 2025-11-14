@@ -1,0 +1,19 @@
+package models
+
+import (
+	"gorm.io/gorm"
+)
+
+type Sponsor struct {
+	gorm.Model
+	CompanyName		string	`json:"company_name" gorm:"not null"`
+
+	IndustryID		*uint		`json:"industry_id"`
+	Industry			*Industry	`json:"industry"`
+
+	Website				*string		`json:"website"`
+	Status				string		`json:"status" gorm:"default:'active'"`
+	Description		*string		`json:"description"`
+
+	Contacts			[]SponsorContact		`json:"contacts" gorm:"foreignKey:SponsorID"`
+}
