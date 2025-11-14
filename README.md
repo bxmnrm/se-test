@@ -6,5 +6,7 @@
   <li>How to push new branch -> git push -u origin NAMEBRANCH </li>
   <li>How to remove remote -> git remote remove origin </li>
   <li>How to add new remote -> git remote add origin #link </li>
+  </br>
+  <li>เพิ่มไฟล์แบบทีละอันก็แค่ git add ชื่อไฟล์</li>
 </ol>
 
