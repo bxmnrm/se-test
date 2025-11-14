@@ -1,10 +1,9 @@
 # team16
 <ol>
-  <li>B6608798 รับเช็ค อึ่งชัยภูมิ</li>
-  <li>B6604141 ธันยกร ศักดิษฐานนท์</li>
-  <li>B6630652 นฤมล ดีจะบก</li>
-  <li>B6630409 อิสรภาพ วาตุรัมย์</li>
-  <li>B6639983 โกวิท ภูอ่าง</li>
+  <li>How to switch branch -> git checkout -b NAMEBRANCH </li>
+  <li>How to create new branch -> git branch NAMEBRANCH</li>
+  <li>How to push new branch -> git push -u origin NAMEBRANCH </li>
+  <li>How to remove remote -> git remote remove origin </li>
+  <li>How to add new remote -> git remote add origin #link </li>
 </ol>
-"# se-test" 
-"# se-test" 
+
