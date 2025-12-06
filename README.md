@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 #Reminder!
 <ol>
   <li>How to switch branch -> git checkout -b NAMEBRANCH *create new only*</li>
@@ -10,3 +12,4 @@
   <li>เพิ่มไฟล์แบบทีละอันก็แค่ git add ชื่อไฟล์</li>
 </ol>
 
+>>>>>>> 48a87e6e24c05dce0dd193576dd7960e0c3ccc8e

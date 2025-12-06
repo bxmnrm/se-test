@@ -51,6 +51,20 @@ func main() {
 		api.POST("/sponsors", controllers.CreateSponsor)
 		api.PATCH("/sponsors/:id", controllers.UpdateSponsor)
 		api.DELETE("/sponsors/:id", controllers.DeleteSponsor)
+
+		/*api.GET("/Screenings", controllers.GetScreenings)
+		api.POST("/Screenings", controllers.CreateScreening)
+		api.PUT("/Screenings/:id", controllers.UpdateScreening)
+		api.DELETE("/Screenings/:id", controllers.DeleteScreening)
+
+		api.GET("/NewsPosts", controllers.GetNewsPosts)
+		api.GET("/NewsPosts/:newsID", controllers.GetNewsPostByID)
+		api.POST("/NewsPosts", controllers.CreateNewsPost)
+		api.PUT("/NewsPosts/:newsID", controllers.UpdateNewsPost)
+
+		api.GET("/student-fav/:studentID", controllers.GetStudentFavsByStudent)
+		api.POST("/student-fav", controllers.CreateStudentFav)
+		api.DELETE("/student-fav/:studentID/:newsID", controllers.DeleteStudentFav)*/
 	}
 
 	r.Run() // listen and serve on 0.0.0.0:8080
